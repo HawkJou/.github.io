@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Exercise Site1</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/earlyaccess/notosanstc.css">
+    <link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/index__cover.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/card.css">
+    <link rel="stylesheet" type="text/css" href="css/player.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/hidden.css">
+    <link rel="stylesheet" type="text/css" href="css/ratio.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__list__item"><a href="https://www.facebook.com">Facebook</a></li>
+                <li class="nav__list__item"><a href="https://www.google.com">Google</a></li>
+                <li class="nav__list__item"><a href="https://progressbar.tw">Progress Bar 進度條線上課程</a></li>
+            </ul>
+            <button type="button" class="nav__button">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <style>
+
+        </style>
+        <section class="remove_padding">
+            <!-- 首頁標語 -->
+            <div class="row">
+                <div class="col-phone-100" style="background-color:red;">
+                    <div class="index__cover">
+                        <div class="index__container">
+                            <h1 class="title">首頁標語</h1>
+                            <button class="btn btn--light" type="button">登入</button>
+                            <button class="btn btn--dark" type="button">註冊</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <!-- cards -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-phone-100 col-tablet-50">
+                        <div class="card mdl-shadow--2dp">
+                            <div class="card__image">
+                                <div class="ratio3_2">
+                                    <img class="ratio__content"
+                                        src="https://images.pexels.com/photos/45981/pexels-photo-45981.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="card__content">
+                                <h4 class="card__title">title title title title</h4>
+                                <p class="card__detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Officiis minus eveniet nihil velit. Maiores, quo! Natus odit mollitia similique
+                                    voluptatum perspiciatis vero dignissimos porro repellat distinctio, minus cum, in
+                                    quasi.</p>
+                            </div>
+                            <div class="card__action">
+                                <div class="action__content">
+                                    <a class="_link" href="">
+                                        <button class="btn" type="button">閱讀更多</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-phone-100 col-tablet-50">
+                        <div class="card mdl-shadow--2dp">
+                            <div class="card__image">
+                                <div class="ratio3_2">
+                                    <img class="ratio__content"
+                                        src="https://images.pexels.com/photos/1460838/pexels-photo-1460838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="card__content">
+                                <h4 class="card__title">title title title title</h4>
+                                <p class="card__detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Officiis minus eveniet nihil velit. Maiores, quo! Natus odit mollitia similique
+                                    voluptatum perspiciatis vero dignissimos porro repellat distinctio, minus cum, in
+                                    quasi.</p>
+                            </div>
+                            <div class="card__action">
+                                <div class="action__content">
+                                    <a class="_link" href="">
+                                        <button class="btn" type="button">閱讀更多</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+
+            <!-- video player -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-phone-100 col-tablet-67">
+                        <div class="video__player">
+                            <div class="ratio16_9">
+                                <iframe id="video__player" class="ratio__content"
+                                    src="https://www.youtube-nocookie.com/embed/zfCUtLdUYd8" frameborder="0"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-phone-100 col-tablet-33">
+                        <div class="video__list__container mdl-shadow--2dp">
+                            <div class="ratio8_9">
+                                <ul class="ratio__content video__list ">
+                                    <li class="_video" data-video="zfCUtLdUYd8">Figma設計體驗營（上）：基本介面 / Frames</li>
+                                    <li class="_video" data-video="qltgqrKJT7o">Figma設計體驗營（中）：Auto Layout / Components
+                                    </li>
+                                    <li class="_video" data-video="3YICmzX9ywk">Figma設計體驗營（下）：Prototype / Plugins / 自介小卡
+                                    </li>
+                                    <li class="_video" data-video="kL5mVSh6rQE">API是什麼，可以吃嗎？</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="remove_padding">
+            <!-- image links -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-phone-100 col-tablet-50 col-desktop-25">
+                        <a href="">
+                            <div class="ratio3_2">
+                                <img class="ratio__content"
+                                    src="https://images.pexels.com/photos/11112734/pexels-photo-11112734.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                                    alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-phone-100 col-tablet-50 col-desktop-25">
+                        <a href="">
+                            <div class="ratio3_2">
+                                <img class="ratio__content"
+                                    src="https://images.pexels.com/photos/9561299/pexels-photo-9561299.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                                    alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-phone-100 col-tablet-50 col-desktop-25 hidden-on-phone">
+                        <a href="">
+                            <div class="ratio3_2">
+                                <img class="ratio__content"
+                                    src="https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                    alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-phone-100 col-tablet-50 col-desktop-25 hidden-on-phone">
+                        <a href="">
+                            <div class="ratio3_2">
+                                <img class="ratio__content"
+                                    src="https://images.pexels.com/photos/293229/pexels-photo-293229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                    alt="">
+
+                            </div>
+                        </a>
+                    </div>
+                    <!-- <div class="col-phone-100 col-tablet-50 col-desktop-25" style="background-color:tan;">
+                        <img class="image ratio__content"
+                            src="https://images.pexels.com/photos/11112734/pexels-photo-11112734.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                            alt="">
+                    </div>
+                    <div class="col-phone-100 col-tablet-50 col-desktop-25" style="background-color:cyan;">
+                        <img class="image"
+                            src="https://images.pexels.com/photos/9561299/pexels-photo-9561299.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                            alt="">
+                    </div>
+                    <div class="col-phone-100 col-tablet-50 col-desktop-25" style="background-color:magenta;">
+                        <img class="image"
+                            src="https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            alt="">
+                    </div>
+                    <div class="col-phone-100 col-tablet-50 col-desktop-25" style="background-color:red;">
+                        <img class="image"
+                            src="https://images.pexels.com/photos/293229/pexels-photo-293229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            alt="">
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-phone-100 col-tablet-33">
+                    <div class="_container _center">
+                        <ul class="footer__links">
+                            <li>link1</li>
+                            <li>link1</li>
+                            <li>link1</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-phone-100 col-tablet-33">
+                    <div class="_container _center">
+                        <ul class="footer__links">
+                            <li>link1</li>
+                            <li>link1</li>
+                            <li>link1</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-phone-100 col-tablet-33">
+                    <div class="_container _center">
+                        <div class="row">
+                            <div class="col-phone-100 col-phone-33">
+                                <i class="fa-brands fa-facebook-square"></i>
+                            </div>
+                            <div class="col-phone-100 col-phone-33">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="col-phone-100 col-phone-33">
+                                <i class="fa-brands fa-youtube"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <script>
+        $(function () {
+            // video player init
+            $("._video").click(function () {
+                var video = $(this).data("video");
+                var url = "https://www.youtube-nocookie.com/embed/" + video;
+                $("#video__player").attr('src', url);
+            })
+            // nav init
+            $(".nav__button").click(function () {
+                $(".nav__list").slideToggle(300);
+            })
+        })
+    </script>
+</body>
+
+</html>
